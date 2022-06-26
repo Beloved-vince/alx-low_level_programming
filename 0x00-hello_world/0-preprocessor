@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc 0-preprocessor -0 main.c
+gcc -E $CFILE -0 main.c
