@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** Main: Checking various sizes of data type
+/**
+ * Main: Checking various sizes of data type
  *
  *Return sizes after compilation
  */
