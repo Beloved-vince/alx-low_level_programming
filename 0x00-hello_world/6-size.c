@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main: Checking various sizes of data type
+ *main - Entry point
  *
- *Return sizes after compilation
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
