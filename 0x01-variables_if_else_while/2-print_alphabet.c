@@ -10,8 +10,7 @@ int main(void)
 
 	while (alpha <= 'z')
 	{
-		putchar(alpha);
-		
+		putchar(alpha);	
 		alpha = alpha + 1;
 	}
 		putchar('\n');
