@@ -10,13 +10,17 @@ int main(void)
 	char Capital_letter ='A';
 	char Small_letter = 'a';
 	
-	while ( Small_letter <= 'Z' && Capital_letter <= 'z')
+	while ( Small_letter <= 'z')
 	{
 		putchar(Small_letter);
-		putchar(Capital_letter);
-		
-		Small_letter = Small_letter + 1;
-		Capital_letter = Capital_letter +1;
+		Small_letter++;					
 	}
+	while ( Capital_letter <= 'Z')
+	{
+		putchar(Capital_letter);
+		Capital_letter++;
+	}
+
 		putchar('\n');
+	return (0);
 }		
