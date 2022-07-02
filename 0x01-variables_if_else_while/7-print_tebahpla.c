@@ -7,8 +7,10 @@
  */
 int main(void)
 {
-	char reverse_alpha ='z';
+	char reverse_alpha = 'z';
+
 	while (reverse_alpha >= 'a')
+
 	{
 		putchar(reverse_alpha);
 		reverse_alpha--;
