@@ -8,7 +8,8 @@
 int main(void)
 {
 	char lower_case = 'a';
-	while(lower_case <= 'z')
+	
+	while( lower_case <= 'z')
 	{
 		if (lower_case != 'e' && lower_case != 'q')
 	{
