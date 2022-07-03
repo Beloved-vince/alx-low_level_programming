@@ -12,7 +12,6 @@ int main(void)
 	for (single_digit = 48; single_digit < 58; single_digit++)
 	{
 		putchar(single_digit);
-	
 		if (single_digit != 57)
 		{
 			putchar(',');
