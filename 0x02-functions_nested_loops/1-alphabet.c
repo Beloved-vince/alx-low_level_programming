@@ -2,16 +2,19 @@
 /**
  * print_alphabet - Begin entry
  *
- *Return: Always success (0)
+ * Return: Always 0 (success)
  */
 void print_alphabet(void)
-char a -= 'a';
-while (a <= 'z')
 {
-_putchar(a);
-a++;
+char c = 'a';
+
+while (c <= 'z')
+
+{
+_putchar(c);
+c++;
+
 }
 _putchar('\n');
 
 }
-
