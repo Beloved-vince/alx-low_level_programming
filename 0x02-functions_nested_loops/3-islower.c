@@ -6,7 +6,6 @@
  *
  * Return: 0 if lower else or 1if upper
 */
-
 int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
