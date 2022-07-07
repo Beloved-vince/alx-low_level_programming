@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (success)
  */
-void alphabet (void)
+void alphabet(void)
 {
 char c = 'a';
 
