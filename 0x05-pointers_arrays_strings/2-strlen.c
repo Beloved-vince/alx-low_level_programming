@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * int _strlen - find the lenght of a string
  * and return it in integer form
