@@ -9,10 +9,10 @@
  */
 int _strlen(char *s)
 {
-	*s = NULL;
+	*s[] = NULL;
 
-	int len = strlen(*s);
+	int len = strlen(s);
 
-	printf(len);
+	printf("%d\n",len);
 
 }
