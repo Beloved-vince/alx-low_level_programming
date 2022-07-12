@@ -8,5 +8,5 @@
  */
 void print_rev(char*s)
 {
-	puts(strrev(s));
+	puts("\s",(strrev(s));
 }
