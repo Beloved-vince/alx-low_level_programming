@@ -13,8 +13,8 @@ int main(void)
 	n = 402;
 		printf("n = %d \n",n);
 
-		reset_to_98(&n);
-		printf("n = %d\n", n);
+		int i = reset_to_98(&n);
+		printf("n = %d\n", i);
 
 	
 	return (0);
