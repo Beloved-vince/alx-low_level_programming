@@ -10,10 +10,13 @@
  */
 int _strlen(char *s)
 {
-	*s[0] = NULL;
+	int count;
 
-	int len = strlen(*s);
+	for (count = 0; count < '\0'; count++)
+	{
+		s[count];	
+	}
 
-	printf("%d\n",len);
+	printf("%d\n", count);
 
 }
