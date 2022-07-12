@@ -4,7 +4,7 @@
  * swap_int - Replacing two particular varible
  * and interchanging both with each value
  * @a: int parameter\
- * @b: int parameter
+ * @b: int parameter\
  *
  * Return: Swapped value
  */
