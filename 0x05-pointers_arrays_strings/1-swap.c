@@ -1,12 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * swap_int - Replacing two particular varible
- * and interchanging both with each value
- * @a: int parameter\
- * @b: int parameter 2
- *
- * Return: Swapped value
+ * swap_int - swaps the values of two integers
+ * using two input parameters
+ * @a: input parameter 1
+ * @b: input parameter 2
+ * Return: Nothing
  */
 void swap_int(int *a, int *b)
 {
