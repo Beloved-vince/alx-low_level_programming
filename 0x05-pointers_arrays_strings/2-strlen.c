@@ -10,9 +10,9 @@
  */
 int _strlen(char *s)
 {
-	*s[] = NULL;
+	*s[0] = NULL;
 
-	int len = strlen(s);
+	int len = strlen(*s);
 
 	printf("%d\n",len);
 
