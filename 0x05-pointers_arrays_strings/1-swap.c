@@ -12,13 +12,13 @@ void swap_int(int *a, int *b)
 {
 	if (*a != *b)
 	{
-		*a = b;
-		return (a);
+		*a = *b;
+		_putchar(*a);
 	}	
 
 	if (*b != *a)
 	{
 		*b = *a;
-		return (*b);
+		_putchar(*b);
 	}
 }
