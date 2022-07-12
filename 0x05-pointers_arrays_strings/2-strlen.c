@@ -1,19 +1,19 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * int _strlen - find the lenght of a string
- * and return it in integer form
- * @s: String variable
- *
- * Return: nothing but in mainfile
+ *_strlen -length of a string
+ *@s: A pointer to an int that will be changed/updated
+ * Return: void this means the answer is spot on
  */
+
 int _strlen(char *s)
 {
-	int count;
+int u;
 
-	while (s[count] != '\0')
-	{
-		count++;	
-	}
-	return (count);
+u = 0;
+while (s[u] != '\0')
+{
+u++;
+}
+return (u);
 }
