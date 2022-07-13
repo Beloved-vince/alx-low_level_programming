@@ -14,10 +14,10 @@ void print_rev(char*s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-	counter++;
+	count++;
 	}
 
-	for (int n = (counter -1); n>= 0; n--)
+	for (n = (count -1); n>= 0; n--)
 	{
 		puts(s[n]);
 	}
