@@ -6,10 +6,8 @@
 * Return: Returns the number of bytes in the initial segment of s,
 * which consist only of bytes from accept
 */
-size_t _strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	strspn(s, accept);
-
 	return (accept);
-
 }
