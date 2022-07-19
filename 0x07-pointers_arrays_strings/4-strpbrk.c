@@ -1,13 +1,25 @@
 #include "main.h"
 /**
-* _strpbrk -> function that searches a string for any of a set of bytes.
-* @s: the string to be checked with xter in accept
-* @accept: the string bytes to be checked with that of s
-* Return: Returns a pointer to the byte in s that matches the bytes in accept,
-* or NULL if no such byte is found
-*/
+ * _strpbrk - function that searches a string for any of a set of bytes..
+ *@s: first value -char
+ *@accept: second value - char
+ *
+ * Return: char with result
+ */
 char *_strpbrk(char *s, char *accept)
 {
-	strpbrk(s, accept);
-	return (s);
+	int j = 0;
+
+	while (*s)
+	{
+		while (accept[j] != '\0')
+		{
+			if (*s == accept[j])
+				return (s);
+			j++;
+		}
+		j = 0;
+		s++;
+	}
+	return ('\0');
 }
