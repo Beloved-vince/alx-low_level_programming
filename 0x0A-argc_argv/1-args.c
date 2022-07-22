@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * Main - entry point to print the number of string
+ * main - entry point to print the number of string
  * @argc: Size of array to be printed
  * @argv: String variable
  * Return: Return the number of string passed as arguement
