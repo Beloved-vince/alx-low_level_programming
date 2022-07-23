@@ -7,11 +7,11 @@
  * @argv: array with the arguments
  *
  * Return: always 0
- **/
+ */
+
 int main(int argc, char *argv[])
 {
-	int to_int;
-
+	int mult = 0;
 	char c[] = "Error";
 
 	if (argc != 3)
@@ -19,8 +19,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", c);
 		return (1);
 	}
-		to_int = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d \n", to_int);
-
-		return (0);
+	mult = atoi(argv[1]) * atoi(argv[2]);
+	printf("%i\n", mult);
+	return (0);
 }
