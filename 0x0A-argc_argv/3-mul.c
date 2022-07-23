@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main - Entry point
- * @argc: Size of input data
- * @argv: data to be inserted
- * Return: multiplication of argv(two data) integer
- */
+ * main - program that multiplies two numbers.
+ * @argc: number of arguments
+ * @argv: array with the arguments
+ *
+ * Return: always 0
+ **/
 int main(int argc, char *argv[])
 {
 	int to_int;
