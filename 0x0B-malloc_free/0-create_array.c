@@ -21,9 +21,9 @@ char *create_array(unsigned int size, char c)
 	if (assign == NULL)
 		return (NULL);
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < size; i++)
 	{
-		assign = c[i];
+		assign[i] = c;
 	}
 
 	return (assign);
