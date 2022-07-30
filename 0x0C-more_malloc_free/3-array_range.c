@@ -13,11 +13,11 @@ int *array_range(int min, int max)
 
 		if (min > max)
 			return (NULL);
-		position = (max- min) + 1;
+		position = (max - min) + 1;
 		point = malloc(position * sizeof(int));
 		if (point == NULL)
 			return (NULL);
-		for(; count < position; count++)
+		for (; count < position; count++)
 			point[count] = min;
 			min += 1;
 
