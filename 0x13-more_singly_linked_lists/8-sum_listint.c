@@ -1,6 +1,6 @@
 #include "lists.h"
-
-/* sum_listint - Sum  all head->n of this linked single list
+/**
+ * sum_listint - Sum  all head->n of this linked single list
  * @head: This is my linked list
  * Return: Return of the total of the sum
  */
