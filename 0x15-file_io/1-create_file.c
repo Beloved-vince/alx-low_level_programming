@@ -5,6 +5,12 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <string.h>
+/**
+ * create_file - function to create file in c
+ * @filename: filename to be created
+ * @text_content: file content
+ * Return: Nothing
+ */
 int create_file(const char *filename, char *text_content)
 {
 	int fd, len;
