@@ -2,7 +2,7 @@
 #include <stdio.h>
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t node_len = 0:
+	size_t node_len = 0;
 	if (h == NULL)
 		return (node_len);
 
@@ -13,7 +13,7 @@ size_t dlistint_len(const dlistint_t *h)
 	while (h)
 	{
 		h = h->next;
-		node_len += 1
+		node_len += 1;
 	}
 return (node_len);
 }
