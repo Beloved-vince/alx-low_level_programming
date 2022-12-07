@@ -1,29 +1,36 @@
 #!/usr/bin/python3
 """
-Island Perimeter
+Module Island Perimeter
 """
 
+
 def island_perimeter(grid):
-    """returns the perimeter of the island described in grid
-    Args:
-        grid(matrix): input grid
-    Description:
-        Traverse the land mass, and
-        for the lake's nearest neighbor
-        then return the total length
-    """
-    y = 0
-    x = 0
-    
-    for row in range(1, len(grid) - 1):
-            for col in range(1, len(grid[row]) - 1):
-                if grid[row][col] == 1:
-                    if grid[row][col - 1] == 0:
-                        y += 1
-                    if grid[row][col + 1] == 0:
-                        y += 1
-                    if grid[row - 1][col] == 0:
-                        x += 1
-                    if grid[row + 1][col] == 0:
-                        x += 1
-    return x + y
+    """ Calculate perimeter of grid where "1" is found"""
+    p = 0
+    for row in range(len(grid)):
+        for col in range(len(grid[0])):
+            if grid[row][col] == 1:
+                if row == 0 or grid[row - 1][col] == 0:
+                    p += 1  # top
+                if row == (len(grid) - 1) or grid[row + 1][col] == 0:
+                    p += 1  # bottom
+                if col == 0 or grid[row][col - 1] == 0:
+                    p += 1  # left
+                if col == (len(grid[0]) - 1) or grid[row][col + 1] == 0:
+                    p += 1  # right
+    return p
+
+
+# Method for rectangular island only, no odd shapes
+#    maxWidth = 0
+#    length = 0
+#    for i in range(len(grid)):
+#        width = 0
+#        for j in range(len(grid[0])):
+#            if grid[i][j] == 1:
+#                width += 1
+#        if width:
+#            length += 1
+#        if width > maxWidth:
+#            maxWidth = width
+#    return ((maxWidth + length) * 2)
